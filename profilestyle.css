@@ -224,10 +224,15 @@ footer {
   .none {
     display: none;
   }
+  section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   header {
     padding: 10rem;
     padding-left: 1rem;
     padding-right: 3rem;
+    overflow-x: hidden;
   }
   .movieName {
     max-width: 100%;
@@ -244,6 +249,7 @@ footer {
   }
   .kemal {
     padding-left: 1rem;
+    overflow-x: hidden;
   }
   .links {
     flex-direction: column;

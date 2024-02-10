@@ -315,7 +315,6 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0.9rem;
-  /* width: 300px; */
 }
 
 .linker a {
@@ -331,6 +330,12 @@ main {
 }
 
 @media (max-width: 767px) {
+  main {
+    height: 100vh;
+  }
+  .wrapper {
+    margin-block: 8.5rem;
+  }
   img {
     max-width: 100%;
   }
